@@ -6,7 +6,7 @@
 # Since I'm physically incapable of beating star 1 right now,
 # I'm just making whatever overengineered dumb thing I feel like.
 
-with open('8/input.txt') as f:
+with open('input.txt') as f:
     instructions = f.readlines()
 
 class Console():

@@ -7,7 +7,7 @@
 
 from typing import List, Tuple, Union
 
-with open('8/input.txt') as f:
+with open('input.txt') as f:
     instructions = f.readlines()
 
 class Console():

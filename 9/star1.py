@@ -5,7 +5,7 @@
 
 import itertools
 
-with open('9/input.txt') as f:
+with open('input.txt') as f:
     data = f.readlines()
 
 data = list(map(int, data))

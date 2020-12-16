@@ -7,7 +7,7 @@ import re
 
 requiredKeys = {'byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'}
 
-with open('4/input.txt') as f:
+with open('input.txt') as f:
     data = f.read()
 
 data = data.split('\n\n')

@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-with open('5/input.txt') as f:
+with open('input.txt') as f:
     data = f.readlines()
 
 passes = {int(s.replace('F','0').replace('B','1').replace('R','1').replace('L','0'), 2) for s in data}

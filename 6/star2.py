@@ -5,7 +5,7 @@
 
 from string import ascii_lowercase as alpha
 
-with open('6/input.txt') as f:
+with open('input.txt') as f:
     data = f.read()[:-1]
 
 groups = data.split('\n\n')

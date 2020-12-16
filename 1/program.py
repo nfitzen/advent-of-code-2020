@@ -5,7 +5,7 @@
 
 import itertools
 
-with open('1/input.txt') as f:
+with open('input.txt') as f:
     text = f.readlines()
     ints = [int(s) for s in text]
 

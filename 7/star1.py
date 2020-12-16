@@ -5,7 +5,7 @@
 
 import re
 
-with open('7/input.txt') as f:
+with open('input.txt') as f:
     data = f.readlines()
 
 conv = {}

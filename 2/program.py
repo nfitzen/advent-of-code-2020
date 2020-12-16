@@ -5,7 +5,7 @@
 
 import re
 
-with open('2/input.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
 
     count = 0

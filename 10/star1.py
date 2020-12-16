@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-with open('10/input.txt') as f:
+with open('input.txt') as f:
     data = f.readlines()
 
 data = sorted(map(int,data))
